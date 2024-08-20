@@ -1,8 +1,8 @@
 import argparse
-from repo import init_repo
-from index import add_file_to_index, add_all_files_to_index
-from commit import create_commit
-from branch import create_branch, checkout_branch
+from .repo import init_repo
+from .index import add_file_to_index, add_all_files_to_index
+from .commit import create_commit
+from .branch import create_branch, checkout_branch
 
 def main():
     parser = argparse.ArgumentParser(description="Git-clone, a simple Git clone.")
